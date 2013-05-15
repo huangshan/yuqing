@@ -3,12 +3,12 @@
 <head>
     <title>舆情监测系统</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="/yuqing/app/tpl/content/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="/yuqing/app/tpl/Content/css/bootstrap-responsive.min.css" />
-    <link rel="stylesheet" type="text/css" href="/yuqing/app/tpl/Content/css/unicorn.main.css" />
-    <link rel="stylesheet" type="text/css" href="/yuqing/app/tpl/Content/css/unicorn.grey.css" />
-    <link rel="stylesheet" type="text/css" href="/yuqing/app/tpl/Content/css/default.css" />
-    <script type="text/javascript" src="/yuqing/app/tpl/Content/js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../Public/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../Public/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" type="text/css" href="../Public/css/unicorn.main.css" />
+    <link rel="stylesheet" type="text/css" href="../Public/css/unicorn.grey.css" />
+    <link rel="stylesheet" type="text/css" href="../Public/css/default.css" />
+    <script type="text/javascript" src="../Public/js/jquery.min.js"></script>
 </head>
 <body>
     <!-- logo -->
@@ -76,12 +76,12 @@
     <!-- 内容 -->
     <div id="content"><div id="content-header">
     <h1>
-        预警信息</h1>
+        人员管理</h1>
 </div>
 <!-- 导航 -->
 <div id="breadcrumb">
     <a href="/yuqing" class="tip-bottom"><i class="icon-home"></i>起始页</a> <a href="javascript:">
-        系统管理</a> <a href="javascript:" class="current">预警信息</a>
+        系统管理</a> <a href="javascript:" class="current">人员管理</a>
 </div>
 <!-- 内容 -->
 <div class="container-fluid">
@@ -89,102 +89,128 @@
         <div class="span12">
             <div class="widget-box">
                 <div class="widget-title">
-                    <span class="icon"><i class="icon-info-sign"></i></span>
+                    <span class="icon"><i class="icon-user"></i></span>
                     <h5>
-                        预警信息</h5>
+                        人员管理</h5>
+                    <div class="buttons" style="margin-right: 15px;">
+                        <a href="__ROOT__/index.php/SystemManage/userAdd" class="btn btn-success btn-mini"><i
+                            class="icon-plus icon-white"></i>新增</a>
+                    </div>
                 </div>
                 <div class="widget-content nopadding">
                     <table class="table table-bordered">
                         <thead>
                             <tr style="cursor: pointer;">
                                 <th>
-                                    信息
+                                    账号
                                 </th>
-                                <th style="width: 10%">
-                                    等级
+                                <th style="width: 13%">
+                                    姓名
+                                </th>
+                                <th style="width: 25%">
+                                    联系电话
                                 </th>
                                 <th style="width: 10%">
                                     状态
                                 </th>
-                                <th style="width: 15%">
-                                    时间
-                                </th>
-                                <th style="width: 10%">
+                                <th style="width: 20%">
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>
-                                    XX网站出现高危黑词"XXX, XXX, XXX"
-                                </td>
-                                <td class="center red">
-                                    紧急
+                                <td class="center">
+                                    huangshan@qq.com
                                 </td>
                                 <td class="center">
-                                    <span class="label label-warning">报警中</span>
+                                    黄山
                                 </td>
                                 <td class="center">
-                                    2013-5-15 15:24:22
+                                    15178819864
                                 </td>
                                 <td class="center">
-                                    <a href="/yuqing/index.php/SystemAlarm/alarmDetail" class="btn btn-mini">详细</a>
-                                    <a href="" class="btn btn-primary btn-mini">处理</a>
+                                    <span class="label label-success">启用</span>
+                                </td>
+                                <td class="center">
+                                    <a href="/workspace/magazine/articledetail/@item.Id" class="btn btn-mini">查看 / 编辑</a>
+                                    <a href="javascript:" class="btn btn-danger btn-mini" onclick="cancelarticle(@item.Id)">
+                                        删除</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td>
-                                    XX网站出现高危黑词"XXX, XXX, XXX"
-                                </td>
-                                <td class="center red">
-                                    紧急
+                                <td class="center">
+                                    huangshan@qq.com
                                 </td>
                                 <td class="center">
-                                    <span class="label label-warning">报警中</span>
+                                    黄山
                                 </td>
                                 <td class="center">
-                                    2013-5-15 15:24:22
+                                    15178819864
                                 </td>
                                 <td class="center">
-                                    <a href="" class="btn btn-mini">详细</a>
-                                    <a href="" class="btn btn-primary btn-mini">处理</a>
+                                    <span class="label label-success">启用</span>
+                                </td>
+                                <td class="center">
+                                    <a href="/workspace/magazine/articledetail/@item.Id" class="btn btn-mini">查看 / 编辑</a>
+                                    <a href="javascript:" class="btn btn-danger btn-mini" onclick="cancelarticle(@item.Id)">
+                                        删除</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td>
-                                    XX网站出现高危黑词"XXX, XXX, XXX"
-                                </td>
-                                <td class="center red">
-                                    紧急
+                                <td class="center">
+                                    huangshan@qq.com
                                 </td>
                                 <td class="center">
-                                    <span class="label">已处理</span>
+                                    黄山
                                 </td>
                                 <td class="center">
-                                    2013-5-15 15:24:22
+                                    15178819864
                                 </td>
                                 <td class="center">
-                                    <a href="" class="btn btn-mini">详细</a>
-                                    <a href="" class="btn btn-primary btn-mini disabled">处理</a>
+                                    <span class="label label-success">启用</span>
+                                </td>
+                                <td class="center">
+                                    <a href="/workspace/magazine/articledetail/@item.Id" class="btn btn-mini">查看 / 编辑</a>
+                                    <a href="javascript:" class="btn btn-danger btn-mini" onclick="cancelarticle(@item.Id)">
+                                        删除</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td>
-                                    XX网站出现高危黑词"XXX, XXX, XXX"
+                                <td class="center">
+                                    huangshan@qq.com
                                 </td>
                                 <td class="center">
-                                    常规
+                                    黄山
                                 </td>
                                 <td class="center">
-                                    
-                                    <span class="label">已处理</span>
+                                    15178819864
                                 </td>
                                 <td class="center">
-                                    2013-5-15 15:24:22
+                                    <span class="label label-success">启用</span>
                                 </td>
                                 <td class="center">
-                                    <a href="" class="btn btn-mini">详细</a>
-                                    <a href="" class="btn btn-primary btn-mini disabled">处理</a>
+                                    <a href="/workspace/magazine/articledetail/@item.Id" class="btn btn-mini">查看 / 编辑</a>
+                                    <a href="javascript:" class="btn btn-danger btn-mini" onclick="cancelarticle(@item.Id)">
+                                        删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="center">
+                                    huangshan@qq.com
+                                </td>
+                                <td class="center">
+                                    黄山
+                                </td>
+                                <td class="center">
+                                    15178819864
+                                </td>
+                                <td class="center">
+                                    <span class="label label-success">启用</span>
+                                </td>
+                                <td class="center">
+                                    <a href="/workspace/magazine/articledetail/@item.Id" class="btn btn-mini">查看 / 编辑</a>
+                                    <a href="javascript:" class="btn btn-danger btn-mini" onclick="cancelarticle(@item.Id)">
+                                        删除</a>
                                 </td>
                             </tr>
                         </tbody>
@@ -203,7 +229,7 @@
 </div>
 <script type="text/javascript">
     $(function () {
-        $('#li_alarm').addClass('open active');
+        $('#li_system').addClass('open active');
     });
 </script></div>
     
@@ -215,10 +241,10 @@
     </div>
 </body>
 </html>
-<script type="text/javascript" src="/yuqing/app/tpl/Content/js/jquery.ui.custom.js"></script>
-<script type="text/javascript" src="/yuqing/app/tpl/Content/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/yuqing/app/tpl/Content/js/jquery.peity.min.js"></script>
-<script type="text/javascript" src="/yuqing/app/tpl/Content/js/jquery.flot.min.js"></script>
-<script type="text/javascript" src="/yuqing/app/tpl/Content/js/jquery.flot.resize.min.js"></script>
-<script type="text/javascript" src="/yuqing/app/tpl/Content/js/unicorn.js"></script>
-<script type="text/javascript" src="/yuqing/app/tpl/Content/js/unicorn.dashboard.js"></script>
+<script type="text/javascript" src="../Public/js/jquery.ui.custom.js"></script>
+<script type="text/javascript" src="../Public/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../Public/js/jquery.peity.min.js"></script>
+<script type="text/javascript" src="../Public/js/jquery.flot.min.js"></script>
+<script type="text/javascript" src="../Public/js/jquery.flot.resize.min.js"></script>
+<script type="text/javascript" src="../Public/js/unicorn.js"></script>
+<script type="text/javascript" src="../Public/js/unicorn.dashboard.js"></script>

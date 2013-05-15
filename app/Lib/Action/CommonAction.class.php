@@ -1,10 +1,12 @@
 <?php
 // 本类由系统自动生成，仅供测试用途
-class PublicAction extends Action {
+class CommonAction extends Action {
     
     function insert() {
-        $name = $this->getActionName();
-        $model = D($name);
+        //$name =$_GET['model'];
+        $model = M('user');
+        print_r($_POST);
+        //exit;
         if (false === $model->create()) {
             $this->error($model->getError());
         }
@@ -17,5 +19,6 @@ class PublicAction extends Action {
             $this->error('新增失败!');
         }
     }
+    
     
 }
