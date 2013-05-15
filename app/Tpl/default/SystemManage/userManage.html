@@ -24,6 +24,7 @@
                 <div class="widget-content nopadding">
                     <table class="table table-bordered">
                         <thead>
+                        
                             <tr style="cursor: pointer;">
                                 <th>
                                     账号
@@ -40,112 +41,37 @@
                                 <th style="width: 20%">
                                 </th>
                             </tr>
+                            
                         </thead>
                         <tbody>
+                        <volist name="list" id="vo">
                             <tr>
                                 <td class="center">
-                                    huangshan@qq.com
+                                    {$vo.Account}
                                 </td>
                                 <td class="center">
-                                    黄山
+                                    {$vo.Name}
                                 </td>
                                 <td class="center">
-                                    15178819864
+                                    {$vo.Mobile}
                                 </td>
                                 <td class="center">
-                                    <span class="label label-success">启用</span>
+                                    <span class="label label-success"><php>if($vo['Status']==1){echo "正常";}else{echo "启用";}</php></span>
                                 </td>
                                 <td class="center">
-                                    <a href="/workspace/magazine/articledetail/@item.Id" class="btn btn-mini">查看 / 编辑</a>
-                                    <a href="javascript:" class="btn btn-danger btn-mini" onclick="cancelarticle(@item.Id)">
+                                    <a href="__ROOT__/index.php/SystemManage/userEdit/Id/{$vo.Id}" class="btn btn-mini">查看 / 编辑</a>
+                                    <a href="__ROOT__/index.php/SystemManage/del/model/users/Id/{$vo.Id}" class="btn btn-danger btn-mini" onclick="cancelarticle(@item.Id)">
                                         删除</a>
                                 </td>
                             </tr>
-                            <tr>
-                                <td class="center">
-                                    huangshan@qq.com
-                                </td>
-                                <td class="center">
-                                    黄山
-                                </td>
-                                <td class="center">
-                                    15178819864
-                                </td>
-                                <td class="center">
-                                    <span class="label label-success">启用</span>
-                                </td>
-                                <td class="center">
-                                    <a href="/workspace/magazine/articledetail/@item.Id" class="btn btn-mini">查看 / 编辑</a>
-                                    <a href="javascript:" class="btn btn-danger btn-mini" onclick="cancelarticle(@item.Id)">
-                                        删除</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="center">
-                                    huangshan@qq.com
-                                </td>
-                                <td class="center">
-                                    黄山
-                                </td>
-                                <td class="center">
-                                    15178819864
-                                </td>
-                                <td class="center">
-                                    <span class="label label-success">启用</span>
-                                </td>
-                                <td class="center">
-                                    <a href="/workspace/magazine/articledetail/@item.Id" class="btn btn-mini">查看 / 编辑</a>
-                                    <a href="javascript:" class="btn btn-danger btn-mini" onclick="cancelarticle(@item.Id)">
-                                        删除</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="center">
-                                    huangshan@qq.com
-                                </td>
-                                <td class="center">
-                                    黄山
-                                </td>
-                                <td class="center">
-                                    15178819864
-                                </td>
-                                <td class="center">
-                                    <span class="label label-success">启用</span>
-                                </td>
-                                <td class="center">
-                                    <a href="/workspace/magazine/articledetail/@item.Id" class="btn btn-mini">查看 / 编辑</a>
-                                    <a href="javascript:" class="btn btn-danger btn-mini" onclick="cancelarticle(@item.Id)">
-                                        删除</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="center">
-                                    huangshan@qq.com
-                                </td>
-                                <td class="center">
-                                    黄山
-                                </td>
-                                <td class="center">
-                                    15178819864
-                                </td>
-                                <td class="center">
-                                    <span class="label label-success">启用</span>
-                                </td>
-                                <td class="center">
-                                    <a href="/workspace/magazine/articledetail/@item.Id" class="btn btn-mini">查看 / 编辑</a>
-                                    <a href="javascript:" class="btn btn-danger btn-mini" onclick="cancelarticle(@item.Id)">
-                                        删除</a>
-                                </td>
-                            </tr>
+                            </volist>
                         </tbody>
                     </table>
-                </div>
+              </div>
                 <div class="widget-title">
-                    <div class="dataTables_paginate pull-right">
-                        <a class="fg-button ui-button" href="/workspace/magazine/article?group=0&amp;page=0">
-                            首页</a><a class="previous ui-button ui-state-disabled" href="javascript:;">上一页</a><a
-                                class="previous ui-button ui-state-disabled" href="javascript:;">下一页</a><a class="fg-button ui-button"
-                                    href="/workspace/magazine/article?group=0&amp;page=-1">末页</a></div>
+                    <div class="dataTables_paginate pull-right" style="line-height:26px;">
+                        {$page}                  
+                    </div>
                 </div>
             </div>
         </div>

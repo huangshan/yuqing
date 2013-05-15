@@ -74,70 +74,95 @@
     </ul>
 </div>
     <!-- 内容 -->
-    <div id="content"><div id="content-header">
+    <div id="content"><!-- 内容页标题 -->
+<div id="content-header">
     <h1>
-        起始页</h1>
-    <div class="pull-right" style="margin-right: 25px; margin-top: -15px;">
-        <select>
-            <option value="0">涪陵在线1 www.fuling.com</option>
-            <option value="1">涪陵在线2 www.fuling.com</option>
-            <option value="2">涪陵在线3 www.fuling.com</option>
-        </select>
-    </div>
+        人员管理</h1>
 </div>
 <!-- 导航 -->
 <div id="breadcrumb">
-    <a href="javascript:" class="tip-bottom"><i class="icon-home"></i>起始页</a>
+    <a href="/yuqing" class="tip-bottom"><i class="icon-home"></i>起始页</a> <a href="javascript:">
+        系统管理</a> <a href="/yuqing/index.php/SystemManage/userManage">人员管理</a> <a href="javascript:"
+            class="current">编辑</a>
 </div>
 <!-- 内容 -->
 <div class="container-fluid">
     <div class="row-fluid">
-        <div class="alert alert-info">
-            欢迎使用豆米网络舆情监测系统！<a href="#" data-dismiss="alert" class="close" title="关闭"><i class="icon-remove"></i></a>
-        </div>
-        <div class="span12 center" style="text-align: center;">
-            <ul class="stat-boxes">
-                <li>
-                    <div class="left peity_bar_good">
-                        <span>2,4,9,7,12,10,19</span>+20%</div>
-                    <div class="right">
-                        <strong>94</strong> 今日话题
-                    </div>
-                </li>
-                <li>
-                    <div class="left peity_bar_bad">
-                        <span>3,5</span>+50%</div>
-                    <div class="right">
-                        <strong>2</strong> 舆情警告
-                    </div>
-                </li>
-                <li>
-                    <div class="left peity_line_good">
-                        <span>12,6,9,23,14</span>+70%</div>
-                    <div class="right">
-                        <strong>8650</strong> 监测量
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="row-fluid">
         <div class="span12">
             <div class="widget-box">
                 <div class="widget-title">
-                    <span class="icon"><i class="icon-signal"></i></span>
+                    <span class="icon"><i class="icon-user"></i></span>
                     <h5>
-                        话题导向</h5>
-                    <div class="buttons">
-                        <a href="#" class="btn btn-mini"><i class="icon-refresh"></i>更新数据</a></div>
+                        编辑</h5>
+                    <h5 class="float-right red">
+                        *为必填</h5>
                 </div>
-                <div class="widget-content">
-                    <div class="row-fluid">
-                        <div class="span12">
-                            <div class="chart">
-                            </div>
+                <div class="widget-content nopadding">
+                    <form id="pwdform" class="form-horizontal" action="" method="post">
+                    <div class="control-group">
+                        <label class="control-label">
+                            账户
+                        </label>
+                        <div class="controls">
+                            <input type="text" disabled="disabled" value="<?php echo ($list["Account"]); ?>" />
                         </div>
                     </div>
+                    <div class="control-group">
+                        <label class="control-label">
+                            姓 名 <span class="mark">*</span>
+                        </label>
+                        <div class="controls">
+                            <input type="text" placeholder="" value="<?php echo ($list["Name"]); ?>"  />
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">
+                            密 码 <span class="mark">*</span>
+                        </label>
+                        <div class="controls">
+                            <input type="password" name="newpwd" id="txtnewpwd" class="{required:true}" placeholder="" />
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">
+                            确认密码 <span class="mark">*</span>
+                        </label>
+                        <div class="controls">
+                            <input type="password" name="confirm" class="{required:true,equalTo:'#txtnewpwd'}"
+                                placeholder="" />
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">
+                            电 话
+                        </label>
+                        <div class="controls">
+                            <input type="text" placeholder="" value="<?php echo ($list["Phone"]); ?>" />
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">
+                            邮 箱 <span class="mark">*</span>
+                        </label>
+                        <div class="controls">
+                            <input type="text" placeholder="例 mail@gmail.com"  value="<?php echo ($list["Email"]); ?>"/>
+                            <label class="help-block">
+                                请使用常用邮箱作为系统邮箱</label>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">
+                            启 用
+                        </label>
+                        <div class="controls">
+                            <input   type="checkbox" <?php if($list['Status']==1){echo "checked";} ?>  />
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <a href="/yuqing/index.php/SystemManage/userManage" class="btn btn-primary">返回</a>
+                        <input id="next" class="btn btn-primary" type="submit" value="保存" />
+                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -145,7 +170,7 @@
 </div>
 <script type="text/javascript">
     $(function () {
-        $('#li_home').addClass('active');
+        $('#li_system').addClass('open active');
     });
 </script></div>
     

@@ -3,10 +3,8 @@
 class CommonAction extends Action {
     
     function insert() {
-        //$name =$_GET['model'];
-        $model = M('user');
-        print_r($_POST);
-        //exit;
+        $name =$_GET['model'];
+        $model = M($name);
         if (false === $model->create()) {
             $this->error($model->getError());
         }
@@ -19,6 +17,38 @@ class CommonAction extends Action {
             $this->error('新增失败!');
         }
     }
+
+  
+    public function save(){
+        $name =$_GET['model'];
+        $model = M($name);
+	    if($result   =  $model->create()){
+            if(false !==$model->save($result)){
+	   	  	    $this->success("用户修改成功");	   	  	
+	   	  	}else{
+	   	  	    $this->error("用户修改失败");
+	   	  	}
+	   	}else{
+	   	  	$this->error($dao->getError());
+	   	}	     
+	    
+    }    	
+
     
+
+    public function del(){
+      
+      $name = $_GET['model'];
+      $id   = $_GET['Id'];
+      $dao = M($name);
+      if (false !== $dao->where ('Id='.$id)->delete () ) {
+		 $this->success ('删除成功！');
+	  } else {
+	     $this->error ('删除失败！');
+	  }	  
+
+    }    
+    
+
     
 }
