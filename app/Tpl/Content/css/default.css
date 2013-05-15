@@ -1,0 +1,41 @@
+body
+{
+}
+.red
+{
+	color: Red !important;
+}
+
+.float
+{
+	float: left !important;
+}
+.float-right
+{
+	float: right !important;
+}
+.strong
+{
+	font-weight: bold;
+}
+.larger
+{
+	font-size: larger;
+}
+
+.mark
+{
+	color: red;
+	font-weight: bolder;
+	font-size: larger;
+}
+.center
+{
+	text-align: center !important;
+}
+.controls-label
+{
+    padding-top: 13px;
+    width: 80%;
+    line-height:5px;
+}

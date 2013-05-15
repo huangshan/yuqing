@@ -1,0 +1,99 @@
+<!-- 内容页标题 -->
+<div id="content-header">
+    <h1>
+        人员管理</h1>
+</div>
+<!-- 导航 -->
+<div id="breadcrumb">
+    <a href="/yuqing" class="tip-bottom"><i class="icon-home"></i>起始页</a> <a href="javascript:">
+        系统管理</a> <a href="/yuqing/index.php/SystemManage/userManage">人员管理</a> <a href="javascript:"
+            class="current">编辑</a>
+</div>
+<!-- 内容 -->
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            <div class="widget-box">
+                <div class="widget-title">
+                    <span class="icon"><i class="icon-user"></i></span>
+                    <h5>
+                        编辑</h5>
+                    <h5 class="float-right red">
+                        *为必填</h5>
+                </div>
+                <div class="widget-content nopadding">
+                    <form id="pwdform" class="form-horizontal" action="" method="post">
+                    <div class="control-group">
+                        <label class="control-label">
+                            账户
+                        </label>
+                        <div class="controls">
+                            <input type="text" disabled="disabled" value="Huang shan" />
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">
+                            姓 名 <span class="mark">*</span>
+                        </label>
+                        <div class="controls">
+                            <input type="text" placeholder="请输入姓名" />
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">
+                            密 码 <span class="mark">*</span>
+                        </label>
+                        <div class="controls">
+                            <input type="password" name="newpwd" id="txtnewpwd" class="{required:true}" placeholder="" />
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">
+                            确认密码 <span class="mark">*</span>
+                        </label>
+                        <div class="controls">
+                            <input type="password" name="confirm" class="{required:true,equalTo:'#txtnewpwd'}"
+                                placeholder="" />
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">
+                            电 话
+                        </label>
+                        <div class="controls">
+                            <input type="text" placeholder="请使用手机号以便接收系统短信" />
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">
+                            邮 箱 <span class="mark">*</span>
+                        </label>
+                        <div class="controls">
+                            <input type="text" placeholder="例 mail@gmail.com" />
+                            <label class="help-block">
+                                请使用常用邮箱作为系统邮箱</label>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">
+                            启 用
+                        </label>
+                        <div class="controls">
+                            <input type="checkbox" />
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <a href="/yuqing/index.php/SystemManage/userManage" class="btn btn-primary">返回</a>
+                        <input id="next" class="btn btn-primary" type="submit" value="保存" />
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $('#li_system').addClass('open active');
+    });
+</script>

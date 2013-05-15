@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>舆情监测系统</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <load href="/yuqing/app/tpl/content/css/bootstrap.min.css" />
+    <load href="/yuqing/app/tpl/Content/css/bootstrap-responsive.min.css" />
+    <load href="/yuqing/app/tpl/Content/css/unicorn.main.css" />
+    <load href="/yuqing/app/tpl/Content/css/unicorn.grey.css" />
+    <load href="/yuqing/app/tpl/Content/css/default.css" />
+    <load href="/yuqing/app/tpl/Content/js/jquery.min.js" />
+</head>
+<body>
+    <!-- logo -->
+    <div id="header">
+        <h1>
+        </h1>
+    </div>
+    <!-- topbar -->
+    <div id="user-nav" class="navbar navbar-inverse">
+        <ul class="nav btn-group">
+            <li class="btn btn-inverse dropdown" id="menu-profile"><a title="" href="#" data-toggle="dropdown"
+                data-target="#menu-profile" class="dropdown-toggle"><i class="icon icon-user"></i>
+                <span class="text">Huang shan </span><b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"><i class="icon icon-list-alt"></i>个人资料</a></li>
+                    <li><a href="#"><i class="icon icon-lock"></i>安全设置</a></li>
+                    <li><a href="#"><i class="icon icon-off"></i>退出系统</a></li>
+                </ul>
+            </li>
+            <li class="btn btn-inverse"><a href="#"><i class="icon icon-envelope"></i><span class="text">
+                重要信息</span> <span class="label label-important">5</span></a> </li>
+        </ul>
+    </div>
+    <!-- 导航 -->
+    <include file="./app/tpl/Public/sidebar.html" />
+    <!-- 内容 -->
+    <div id="content">{__CONTENT__}</div>
+    
+    <!-- Footer -->
+    <div class="row-fluid">
+        <div id="footer" class="span12" style="margin-top: 25px; color: #eeeeee">
+            2013 &copy; 重庆特晟科技有限责任公司
+        </div>
+    </div>
+</body>
+</html>
+<load href="/yuqing/app/tpl/Content/js/jquery.ui.custom.js" />
+<load href="/yuqing/app/tpl/Content/js/bootstrap.min.js" />
+<load href="/yuqing/app/tpl/Content/js/jquery.peity.min.js" />
+<load href="/yuqing/app/tpl/Content/js/jquery.flot.min.js" />
+<load href="/yuqing/app/tpl/Content/js/jquery.flot.resize.min.js" />
+<load href="/yuqing/app/tpl/Content/js/unicorn.js" />
+<load href="/yuqing/app/tpl/Content/js/unicorn.dashboard.js" />

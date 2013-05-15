@@ -1,0 +1,90 @@
+html
+{
+    height: 100%;
+    background: -webkit-radial-gradient(left top, ellipse, #ace, #f96, #1E90FF);
+    background: -moz-radial-gradient(left top, ellipse, #ace, #f96, #1E90FF);
+}
+body
+{
+ 
+}
+.login
+{
+    width: 98%;
+    height: 380px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    margin-top: -300px;
+}
+.login-boxbg
+{
+    width: 360px;
+    height: 380px;
+    margin: auto;
+    background: url(../img/loginbg.png);
+    overflow: hidden;
+}
+.login-box
+{
+    margin: 10px 10px 10px 10px;
+    height: 310px;
+    background-color: #fefefe;
+    padding: 20px 20px 30px 20px;
+}
+.loginbox-title
+{
+    font-size: 16pt;
+    color: #868585;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.border
+{
+    border: solid 1px red;
+}
+
+
+/********Corners Start***/
+.corner-top
+{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.corner-bottom
+{
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.corner-top2
+{
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.corner-bottom2
+{
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+/********Corners End*******/
+
+.footer
+{
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(51, 51, 51);
+}
+
+
+.hspace10
+{
+    overflow: hidden;
+    width: 100%;
+    height: 10px;
+}
+.hspace15
+{
+    overflow: hidden;
+    width: 100%;
+    height: 15px;
+}
