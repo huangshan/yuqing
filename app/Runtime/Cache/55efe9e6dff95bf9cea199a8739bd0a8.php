@@ -47,13 +47,13 @@
         </li>
         <li id="li_mset" class="submenu"><a href="#"><i class="icon icon-th"></i><span>监测设置</span></a>
             <ul>
-                <li><a href="BlackWords.html">系统黑词</a></li>
-                <li><a href="#">系统设置</a></li>
+                <li><a href="#">监测网站</a></li>
+                <li><a href="/yuqing/index.php/MonitorSet/blackWords">系统黑词</a></li>
             </ul>
         </li>
         <li id="li_alarm" class="submenu"><a href="#"><i class="icon icon-bell"></i><span>系统预警</span></a>
             <ul>
-                <li><a href="/yuqing/index.php/SystemAlarm/index">预警消息</a></li>
+                <li><a href="/yuqing/index.php/SystemAlarm/index">预警信息</a></li>
                 <li><a href="/yuqing/index.php/SystemAlarm/alarmSet">预警设置</a></li>
                 <li><a href="/yuqing/index.php/SystemAlarm/smsList">预警短信</a></li>
                 <li><a href="/yuqing/index.php/SystemAlarm/mailList">预警邮箱</a></li>
@@ -61,8 +61,8 @@
         </li>
         <li id="li_user" class="submenu"><a href="#"><i class="icon icon-user"></i><span>个人中心</span></a>
             <ul>
-                <li><a href="/yuqing/index.php/Profile">个人资料</a></li>
-                <li><a href="Security.html">安全设置</a></li>
+                <li><a href="/yuqing/index.php/Account/profile">个人资料</a></li>
+                <li><a href="/yuqing/index.php/Account/security">安全设置</a></li>
             </ul>
         </li>
         <li id="li_system" class="submenu"><a href="#"><i class="icon icon-wrench"></i><span>系统管理</span></a>
@@ -81,7 +81,7 @@
 </div>
 <!-- 导航 -->
 <div id="breadcrumb">
-    <a href="default.html" class="tip-bottom"><i class="icon-home"></i>起始页</a> <a href="javascript:">
+    <a href="/yuqing" class="tip-bottom"><i class="icon-home"></i>起始页</a> <a href="javascript:">
         系统预警</a> <a href="javascript:" class="current">预警邮箱</a>
 </div>
 <!-- 内容 -->

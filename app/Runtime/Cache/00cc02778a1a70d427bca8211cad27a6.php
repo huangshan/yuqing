@@ -77,12 +77,12 @@
     <div id="content"><!-- 内容页标题 -->
 <div id="content-header">
     <h1>
-        预警信息</h1>
+        系统黑词</h1>
 </div>
 <!-- 导航 -->
 <div id="breadcrumb">
     <a href="/yuqing" class="tip-bottom"><i class="icon-home"></i>起始页</a> <a href="javascript:">
-        系统预警</a> <a href="/yuqing/index.php/SystemAlarm">预警信息</a> <a href="javascript:" class="current">信息详情</a>
+        监测设置</a> <a href="javascript:" class="current">系统黑词</a>
 </div>
 <!-- 内容 -->
 <div class="container-fluid">
@@ -90,71 +90,32 @@
         <div class="span12">
             <div class="widget-box">
                 <div class="widget-title">
-                    <span class="icon"><i class="icon-tasks"></i></span>
+                    <span class="icon"><i class="icon-warning-sign"></i></span>
                     <h5>
-                        信息详情</h5>
+                        系统黑词</h5>
                 </div>
                 <div class="widget-content nopadding">
                     <form id="pwdform" class="form-horizontal" action="" method="post">
                     <div class="control-group">
                         <label class="control-label">
-                            标 题
+                            高危黑词
                         </label>
                         <div class="controls">
-                            <label class="controls-label">发现高危黑词</label>
+                            <textarea rows="6" placeholder="请输入高危黑词"></textarea>
+                            <span class="help-block">不同黑词之间请用英文逗号“,”隔开 </span>
                         </div>
                     </div>
                     <div class="control-group">
                         <label class="control-label">
-                            来源站点
+                            常规黑词
                         </label>
                         <div class="controls">
-                            <label class="controls-label">涪陵在线</label>
+                            <textarea rows="6" placeholder="请输入常规黑词"></textarea>
+                            <span class="help-block">不同黑词之间请用英文逗号“,”隔开 </span>
                         </div>
                     </div>
-                    <div class="control-group">
-                        <label class="control-label">
-                            URL
-                        </label>
-                        <div class="controls">
-                            <a class="controls-label" href="http://bbs.fuling.com/thread-1316837-1-1.html" target="_blank">bbs.fuling.com/thread-1316837-1-1.html</a>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <label class="control-label">
-                            内 容
-                        </label>
-                        <div class="controls">
-                            <textarea rows="5" disabled="disabled">XX网站出现高危黑词"XXX, XXX, XXX"</textarea>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <label class="control-label">
-                            等 级
-                        </label>
-                        <div class="controls">
-                            <label class="controls-label red">紧急</label>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <label class="control-label">
-                            状 态
-                        </label>
-                        <div class="controls">
-                            <span class="label label-warning">报警中</span>
-                        </div>
-                    </div>
-                    <div class="control-group">
-                        <label class="control-label">
-                            报警时间
-                        </label>
-                        <div class="controls">
-                            <label class="controls-label">2013-5-12 20:15:21</label>
-                        </div>
-                    </div>
-                    
                     <div class="form-actions">
-                        <a href="/yuqing/index.php/SystemAlarm" class="btn btn-primary">返回</a>
+                        <input id="next" class="btn btn-primary" type="submit" value="保存" />
                     </div>
                     </form>
                 </div>
@@ -164,7 +125,7 @@
 </div>
 <script type="text/javascript">
     $(function () {
-        $('#li_alarm').addClass('open active');
+        $('#li_mset').addClass('open active');
     });
 </script>
 </div>

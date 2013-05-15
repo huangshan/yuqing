@@ -39,3 +39,16 @@ body
     width: 80%;
     line-height:5px;
 }
+
+/**table style start**/
+table
+{
+    table-layout: fixed;
+}
+td
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/**table style end**/
