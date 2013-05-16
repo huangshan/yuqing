@@ -18,7 +18,7 @@ class SystemManageAction extends CommonAction{
 	//用户添加
 	public function userAdd()
 	{
-		$this->display();
+	   $this->display();
 	}
 	//用户编辑
 	public function userEdit()

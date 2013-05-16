@@ -29,7 +29,7 @@ class CommonAction extends Action {
 	   	  	    $this->error("用户修改失败");
 	   	  	}
 	   	}else{
-	   	  	$this->error($dao->getError());
+	   	  	$this->error($model->getError());
 	   	}	     
 	    
     }    	
@@ -38,14 +38,22 @@ class CommonAction extends Action {
 
     public function del(){
       
-      $name = $_GET['model'];
-      $id   = $_GET['Id'];
-      $dao = M($name);
-      if (false !== $dao->where ('Id='.$id)->delete () ) {
-		 $this->success ('删除成功！');
-	  } else {
-	     $this->error ('删除失败！');
-	  }	  
+             
+        $model = D('users');
+        if (!empty($model)) {
+            $pk = $model->getPk();
+            $id = $_REQUEST ['id'];
+            if (isset($id)) {
+                $condition = array($pk => array('in', explode(',', $id)));
+                if (false !== $model->where($condition)->delete()) {
+                    $this->success('删除成功！');
+                } else {
+                    $this->error('删除失败！');
+                }
+            } else {
+                $this->error('非法操作');
+            }
+        } 
 
     }    
     

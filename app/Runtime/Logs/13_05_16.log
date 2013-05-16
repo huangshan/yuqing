@@ -1,0 +1,750 @@
+[ 2013-05-16T01:25:47+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/Security.html
+ERR: 非法操作:Security
+
+[ 2013-05-16T01:46:57+08:00 ] 127.0.0.1 /yuqing/index.php/Profile
+ERR: 无法加载模块:Profile
+
+[ 2013-05-16T01:46:57+08:00 ] 127.0.0.1 /yuqing/index.php/Profile
+ERR: 无法加载模块:Profile
+
+[ 2013-05-16T01:48:11+08:00 ] 127.0.0.1 /yuqing/index.php/Profile
+ERR: 无法加载模块:Profile
+
+[ 2013-05-16T01:48:11+08:00 ] 127.0.0.1 /yuqing/index.php/Profile
+ERR: 无法加载模块:Profile
+
+[ 2013-05-16T01:48:17+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/BlackWords.html
+ERR: 非法操作:BlackWords
+
+[ 2013-05-16T02:00:12+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/function%20URL()%20%7B%20[native%20code]%20%7D/del/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001770s ]
+ERR: 非法操作:function URL() { [native code] }
+
+[ 2013-05-16T02:00:59+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/function%20URL()%20%7B%20[native%20code]%20%7D/del/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+ERR: 非法操作:function URL() { [native code] }
+
+[ 2013-05-16T02:01:33+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/function%20URL()%20%7B%20[native%20code]%20%7D/del/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+ERR: 非法操作:function URL() { [native code] }
+
+[ 2013-05-16T02:02:23+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/function%20URL()%20%7B%20[native%20code]%20%7D/del/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+ERR: 非法操作:function URL() { [native code] }
+
+[ 2013-05-16T02:03:12+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/function%20URL()%20%7B%20[native%20code]%20%7D/del/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+ERR: 非法操作:function URL() { [native code] }
+
+[ 2013-05-16T02:03:19+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/function%20URL()%20%7B%20[native%20code]%20%7D/del/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002012s ]
+ERR: 非法操作:function URL() { [native code] }
+
+[ 2013-05-16T02:03:25+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/function%20URL()%20%7B%20[native%20code]%20%7D/del/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+ERR: 非法操作:function URL() { [native code] }
+
+[ 2013-05-16T02:04:41+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/function%20URL()%20%7B%20[native%20code]%20%7D/del/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+ERR: 非法操作:function URL() { [native code] }
+
+[ 2013-05-16T02:04:57+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/function%20URL()%20%7B%20[native%20code]%20%7D/del/
+ERR: 非法操作:function URL() { [native code] }
+
+[ 2013-05-16T02:05:16+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/function%20URL()%20%7B%20[native%20code]%20%7D/del/
+ERR: 非法操作:function URL() { [native code] }
+
+[ 2013-05-16T02:22:52+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del/id/1/ajax/1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006679s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000333s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:23:29+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del/id/3/ajax/1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006603s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000354s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:23:57+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del/id/1/ajax/1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007017s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000256s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:24:17+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del/id/1/ajax/1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007037s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000275s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:25:02+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del/id/1/ajax/1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.009269s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000255s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:25:43+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del/id/8/ajax/1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007111s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000304s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:26:07+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del/id/8/ajax/1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006461s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000285s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:26:42+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del/id/8/ajax/1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007102s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000440s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:28:47+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.056254s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000261s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:30:33+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage?userAdd
+ERR: 非法操作:index
+
+[ 2013-05-16T02:30:47+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/
+ERR: 非法操作:index
+
+[ 2013-05-16T02:30:55+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/usersmanage
+ERR: 非法操作:usersmanage
+
+[ 2013-05-16T02:30:58+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/
+ERR: 非法操作:index
+
+[ 2013-05-16T02:30:59+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage?userAdd
+ERR: 非法操作:index
+
+[ 2013-05-16T02:32:01+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/userEdit?Id=14&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006266s ]
+SQL: SELECT * FROM `think_users` WHERE ( Id=14 ) LIMIT 1   [ RunTime:0.000630s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001715s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001798s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018726s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000947s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000835s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000648s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003638s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001138s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2013-05-16T02:32:15+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004366s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007704s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000320s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:33:06+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.019344s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000728s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:33:14+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001661s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008409s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000540s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:34:14+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=1&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.009795s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000283s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:34:57+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?Id=1&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006179s ]
+SQL: DELETE FROM `think_users` WHERE ( Id=1 ) [ RunTime:0.004925s ]
+
+[ 2013-05-16T02:35:00+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=1&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006228s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000201s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:35:34+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.009732s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000331s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:35:43+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006987s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000398s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:36:08+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.011167s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000356s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:36:12+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=1&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006413s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000280s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:39:32+08:00 ] 127.0.0.1 /yuqing/index.php?s=/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006022s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000255s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:43:15+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=1&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006445s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000315s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:43:29+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=2&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.005570s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000299s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:43:37+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?Id=2&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006079s ]
+SQL: DELETE FROM `think_users` WHERE ( Id=2 ) [ RunTime:0.000524s ]
+
+[ 2013-05-16T02:44:47+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage
+ERR: 非法操作:index
+
+[ 2013-05-16T02:45:24+08:00 ] 127.0.0.1 /yuqing/index.php?s=/SystemManage/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+ERR: 非法操作:index.php
+
+[ 2013-05-16T02:52:31+08:00 ] 127.0.0.1 /yuqing/index.php?s=/SystemManage/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+ERR: 非法操作:index.php
+
+[ 2013-05-16T02:52:50+08:00 ] 127.0.0.1 /yuqing/index.php?s=/SystemManage/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+ERR: 非法操作:index.php
+
+[ 2013-05-16T02:53:21+08:00 ] 127.0.0.1 /yuqing/index.php?s=/SystemManage/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+ERR: 非法操作:index.php
+
+[ 2013-05-16T02:53:51+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.013836s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000216s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T02:54:35+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007309s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000285s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T03:09:29+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006985s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000338s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T03:12:33+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006109s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000318s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T03:12:53+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006837s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000218s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T03:14:35+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=3&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006154s ]
+SQL: DELETE FROM `think_users` WHERE ( Id=3 ) [ RunTime:0.003320s ]
+
+[ 2013-05-16T03:14:37+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=3&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006209s ]
+SQL: DELETE FROM `think_users` WHERE ( Id=3 ) [ RunTime:0.000546s ]
+
+[ 2013-05-16T03:14:38+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=3&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006042s ]
+SQL: DELETE FROM `think_users` WHERE ( Id=3 ) [ RunTime:0.000470s ]
+
+[ 2013-05-16T03:14:38+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=3&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006133s ]
+SQL: DELETE FROM `think_users` WHERE ( Id=3 ) [ RunTime:0.000485s ]
+
+[ 2013-05-16T03:14:38+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=3&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006024s ]
+SQL: DELETE FROM `think_users` WHERE ( Id=3 ) [ RunTime:0.000466s ]
+
+[ 2013-05-16T03:14:38+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=3&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006919s ]
+SQL: DELETE FROM `think_users` WHERE ( Id=3 ) [ RunTime:0.000552s ]
+
+[ 2013-05-16T03:14:40+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=3&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006661s ]
+SQL: DELETE FROM `think_users` WHERE ( Id=3 ) [ RunTime:0.000475s ]
+
+[ 2013-05-16T03:14:44+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=3&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.005771s ]
+SQL: DELETE FROM `think_users` WHERE ( Id=3 ) [ RunTime:0.000469s ]
+
+[ 2013-05-16T03:14:48+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?Id=3&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.005765s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000315s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T03:14:53+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=3&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006563s ]
+SQL: DELETE FROM `think_users` WHERE ( Id=3 ) [ RunTime:0.000766s ]
+
+[ 2013-05-16T03:14:57+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=3&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.005809s ]
+SQL: DELETE FROM `think_users` WHERE ( Id=3 ) [ RunTime:0.000588s ]
+
+[ 2013-05-16T03:15:02+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=3&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006212s ]
+SQL: DELETE FROM `think_users` WHERE ( Id=3 ) [ RunTime:0.000493s ]
+
+[ 2013-05-16T03:15:02+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=3&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006373s ]
+SQL: DELETE FROM `think_users` WHERE ( Id=3 ) [ RunTime:0.000521s ]
+
+[ 2013-05-16T03:15:03+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=3&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006109s ]
+SQL: DELETE FROM `think_users` WHERE ( Id=3 ) [ RunTime:0.000473s ]
+
+[ 2013-05-16T03:15:03+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=3&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006263s ]
+SQL: DELETE FROM `think_users` WHERE ( Id=3 ) [ RunTime:0.000487s ]
+
+[ 2013-05-16T03:15:03+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=3&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006004s ]
+SQL: DELETE FROM `think_users` WHERE ( Id=3 ) [ RunTime:0.000478s ]
+
+[ 2013-05-16T03:15:47+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+NOTIC: [8] Undefined index: model D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 41 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008410s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000353s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T03:16:12+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007060s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000299s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T03:18:35+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008610s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000264s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T03:19:26+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.011402s ]
+SQL: DELETE FROM `think_users` WHERE ( Id= ) [ RunTime:0.000328s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `think_users` WHERE ( Id= )
+
+[ 2013-05-16T03:21:42+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.009659s ]
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 45 行.
+
+[ 2013-05-16T03:22:03+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006157s ]
+NOTIC: [8] Undefined index: Id D:\wamp\www\yuqing\app\Lib\Action\CommonAction.class.php 第 45 行.
+
+[ 2013-05-16T03:25:47+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007050s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('8') ) [ RunTime:0.003119s ]
+
+[ 2013-05-16T03:26:18+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.009022s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('4') ) [ RunTime:0.002973s ]
+
+[ 2013-05-16T03:26:22+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008872s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('5') ) [ RunTime:0.003181s ]
+
+[ 2013-05-16T03:26:25+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007210s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('6') ) [ RunTime:0.049539s ]
+
+[ 2013-05-16T03:26:33+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007628s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('11') ) [ RunTime:0.057705s ]
+
+[ 2013-05-16T13:55:36+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001883s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.005253s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('7') ) [ RunTime:0.059947s ]
+
+[ 2013-05-16T13:58:20+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.009088s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('10') ) [ RunTime:0.058047s ]
+
+[ 2013-05-16T14:30:27+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008127s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('12') ) [ RunTime:0.002919s ]
+
+[ 2013-05-16T14:40:02+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008994s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('13') ) [ RunTime:0.037463s ]
+
+[ 2013-05-16T14:54:10+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008579s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('14') ) [ RunTime:0.003265s ]
+
+[ 2013-05-16T14:54:58+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.013677s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('15') ) [ RunTime:0.002800s ]
+
+[ 2013-05-16T15:05:10+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002073s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.009623s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('16') ) [ RunTime:0.004555s ]
+
+[ 2013-05-16T15:09:27+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007287s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('17') ) [ RunTime:0.004466s ]
+
+[ 2013-05-16T15:13:46+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.009403s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('18') ) [ RunTime:0.150245s ]
+
+[ 2013-05-16T15:15:02+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006616s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('19') ) [ RunTime:0.002975s ]
+
+[ 2013-05-16T15:15:54+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.009039s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('20') ) [ RunTime:0.055061s ]
+
+[ 2013-05-16T15:26:53+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007997s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('21') ) [ RunTime:0.092401s ]
+
+[ 2013-05-16T15:33:59+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008565s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('22') ) [ RunTime:0.052786s ]
+

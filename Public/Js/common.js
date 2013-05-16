@@ -229,8 +229,9 @@ function foreverdel(id){
 	}
 
 	if (window.confirm('确实要永久删除选择项吗？'))
-	{
-		ThinkAjax.send(URL+"/foreverdelete/","id="+keyValue+'&ajax=1',doDelete);
+	{   
+		ThinkAjax.send(ROOT+"/index.php/SystemManage/del","id="+keyValue+'&ajax=1',doDelete);
+		//ThinkAjax.send(URL+"/foreverdelete/","id="+keyValue+'&ajax=1',doDelete);
 	}
 }
 function getTableRowIndex(obj){ 

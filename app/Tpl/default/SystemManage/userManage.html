@@ -22,23 +22,22 @@
                     </div>
                 </div>
                 <div class="widget-content nopadding">
-                    <table class="table table-bordered">
+                    <table class="table table-bordered" id="checkList">
                         <thead>
                         
                             <tr style="cursor: pointer;">
-                                <th>
-                                    账号
-                                </th>
-                                <th style="width: 13%">
+                                <th width="6%">编号</th>
+                                <th width="15%">账号</th>
+                                <th width="13%" style="width: 13%">
                                     姓名
                                 </th>
-                                <th style="width: 25%">
+                                <th width="25%" style="width: 25%">
                                     联系电话
                                 </th>
-                                <th style="width: 10%">
+                                <th width="21%" style="width: 10%">
                                     状态
                                 </th>
-                                <th style="width: 20%">
+                                <th width="20%" style="width: 20%">
                                 </th>
                             </tr>
                             
@@ -46,9 +45,10 @@
                         <tbody>
                         <volist name="list" id="vo">
                             <tr>
-                                <td class="center">
-                                    {$vo.Account}
+                                <td align="center" class="center">
+                                    <input type="checkbox" name="key" value="{$vo.Id}">
                                 </td>
+                                <td class="center">{$vo.Account}</td>
                                 <td class="center">
                                     {$vo.Name}
                                 </td>
@@ -60,14 +60,14 @@
                                 </td>
                                 <td class="center">
                                     <a href="__ROOT__/index.php/SystemManage/userEdit/Id/{$vo.Id}" class="btn btn-mini">查看 / 编辑</a>
-                                    <a href="__ROOT__/index.php/SystemManage/del/model/users/Id/{$vo.Id}" class="btn btn-danger btn-mini" onclick="cancelarticle(@item.Id)">
+                                    <a href="javascript::" class="btn btn-danger btn-mini" onclick="foreverdel()">
                                         删除</a>
                                 </td>
                             </tr>
                             </volist>
                         </tbody>
                     </table>
-              </div>
+          </div>
                 <div class="widget-title">
                     <div class="dataTables_paginate pull-right" style="line-height:26px;">
                         {$page}                  

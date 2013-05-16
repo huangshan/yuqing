@@ -8,7 +8,32 @@
     <link rel="stylesheet" type="text/css" href="../Public/css/unicorn.main.css" />
     <link rel="stylesheet" type="text/css" href="../Public/css/unicorn.grey.css" />
     <link rel="stylesheet" type="text/css" href="../Public/css/default.css" />
+
     <script type="text/javascript" src="../Public/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../Public/js/jquery.ui.custom.js"></script>
+    <script type="text/javascript" src="../Public/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../Public/js/jquery.peity.min.js"></script>
+    <script type="text/javascript" src="../Public/js/jquery.flot.min.js"></script>
+    <script type="text/javascript" src="../Public/js/jquery.flot.resize.min.js"></script>
+    <script type="text/javascript" src="../Public/js/unicorn.js"></script>
+    <script type="text/javascript" src="../Public/js/unicorn.dashboard.js"></script>   
+    <script type="text/javascript" src="__PUBLIC__/Js/Base.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Js/prototype.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Js/mootools.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Js/Think/ThinkAjax.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Js/Form/CheckForm.js"></script>>    
+    <script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
+
+<script language="JavaScript">
+<!--
+//指定当前组模块URL地址 
+var ROOT = '__ROOT__';
+var URL = '__URL__';
+var APP	 =	 '__APP__';
+var PUBLIC = '__PUBLIC__';
+//-->
+</script>    
+
 </head>
 <body>
     <!-- logo -->
@@ -176,15 +201,8 @@
     <!-- Footer -->
     <div class="row-fluid">
         <div id="footer" class="span12" style="margin-top: 25px; color: #eeeeee">
-            2013 &copy; 重庆特晟科技有限责任公司
+            &copy; 2013
         </div>
     </div>
 </body>
 </html>
-<script type="text/javascript" src="../Public/js/jquery.ui.custom.js"></script>
-<script type="text/javascript" src="../Public/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="../Public/js/jquery.peity.min.js"></script>
-<script type="text/javascript" src="../Public/js/jquery.flot.min.js"></script>
-<script type="text/javascript" src="../Public/js/jquery.flot.resize.min.js"></script>
-<script type="text/javascript" src="../Public/js/unicorn.js"></script>
-<script type="text/javascript" src="../Public/js/unicorn.dashboard.js"></script>

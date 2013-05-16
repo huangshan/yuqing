@@ -199,7 +199,7 @@ var ThinkAjax = {
 	},
 	// 发送Ajax请求
 	send:function(url,pars,response,target,tips,effect)
-	{
+	{   
 		var xmlhttp = this.getTransport();
 		url = (url == undefined)?this.options['url']:url;
 		pars = (pars == undefined)?this.options['var']:pars;
@@ -222,14 +222,15 @@ var ThinkAjax = {
 		}
 		this.activeRequestCount++;
 		this.bComplete = false;
+		
 		try {
 			if (this.method == "GET")
-			{
+			{   
 				xmlhttp.open(this.method, url+"?"+pars, true);
 				pars = "";
 			}
 			else
-			{
+			{   //alert(url+"?"+pars);
 				xmlhttp.open(this.method, url, true);
 				xmlhttp.setRequestHeader("Method", "POST "+url+" HTTP/1.1");
 				xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
@@ -245,6 +246,7 @@ var ThinkAjax = {
 					}
 				}
 			}
+			//alert(pars);
 			xmlhttp.send(pars);
 		}
 		catch(z) { return false; }
