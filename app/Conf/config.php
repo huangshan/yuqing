@@ -8,7 +8,7 @@ $array=array(
 	'DEFAULT_THEME'             => 'default',
 	'DEFAULT_CHARSET'           => 'utf8',
     'URL_MODEL'                 =>3,
-    'USER_AUTH_GATEWAY'         =>'/Public/login',// 默认认证网关
+    'USER_AUTH_GATEWAY'         =>'/index.php?m=Public&a=login',// 默认认证网关
 	'ADMIN_AUTH_GATEWAY'        =>'/index.php/admin/?m=Public&a=login',// 默认认证网关
     'VAR_PAGE'                  =>'page',
     'TMPL_ACTION_ERROR'         =>  'Public:success', // 默认错误跳转对应的模板文件

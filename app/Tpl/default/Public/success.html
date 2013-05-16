@@ -1,25 +1,24 @@
+{__NOLAYOUT__}
 <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
 <html>
 <head>
 <title>页面提示</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv='Refresh' content='{$waitSecond};URL={$jumpUrl}'>
-    <load href="../Public/css/style.css" />
-    <load href="../Public/css/bootstrap.min.css" />
-    <load href="../Public/css/bootstrap-responsive.min.css" />
-    <load href="../Public/css/unicorn.main.css" />
-    <load href="../Public/css/unicorn.grey.css" />
-    <load href="../Public/css/default.css" />
+<load href ="__PUBLIC__/Css/style.css" />
 </head>
 <body>
-<div   style=" padding-top:100px; margin-left:auto; margin-right:auto; width:400px;">
-<table class="message"  cellpadding=0 cellspacing=20 >
- 	<tr class="row" >
+<div class="message">
+<table class="message"  cellpadding=0 cellspacing=0 >
+	<tr>
+		<td height='3'  class="topTd" ></td>
+	</tr>
+	<tr class="row" >
 		<th class="tCenter space">{$msgTitle}</th>
 	</tr>
 	<present name="message" >
 	<tr class="row">
-		<td height="29" style="color:blue">{$message}</td>
+		<td style="color:blue">{$message}</td>
 	</tr>
 	</present>
 	<present name="error" >
@@ -34,9 +33,12 @@
 	</present>
 	<notpresent name="closeWin" >
 	<tr class="row">
-		<td height="62">系统将在 <span id="wait" style="color:blue;font-weight:bold">{$waitSecond}</span> 秒后自动跳转,如果不想等待,直接点击 <a id="href" href="{$jumpUrl}">这里</a> 跳转</td>
+		<td>系统将在 <span id="wait" style="color:blue;font-weight:bold">{$waitSecond}</span> 秒后自动跳转,如果不想等待,直接点击 <a id="href" href="{$jumpUrl}">这里</a> 跳转</td>
 	</tr>
 	</notpresent>
+	<tr>
+		<td height='3' class="bottomTd"></td>
+	</tr>
 	</table>
 </div>
 <script type="text/javascript">
