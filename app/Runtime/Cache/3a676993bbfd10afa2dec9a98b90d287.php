@@ -102,80 +102,51 @@ var PUBLIC = '__PUBLIC__';
     </ul>
 </div>
     <!-- 内容 -->
-    <div id="content"><div id="content-header">
-    <h1>
-        起始页</h1>
-    <div class="pull-right" style="margin-right: 25px; margin-top: -15px;">
-        <select>
-            <option value="0">涪陵在线1 www.fuling.com</option>
-            <option value="1">涪陵在线2 www.fuling.com</option>
-            <option value="2">涪陵在线3 www.fuling.com</option>
-        </select>
-    </div>
-</div>
-<!-- 导航 -->
-<div id="breadcrumb">
-    <a href="javascript:" class="tip-bottom"><i class="icon-home"></i>起始页</a>
-</div>
-<!-- 内容 -->
-<div class="container-fluid">
-    <div class="row-fluid">
-        <div class="alert alert-info">
-            欢迎使用豆米网络舆情监测系统！<a href="#" data-dismiss="alert" class="close" title="关闭"><i class="icon-remove"></i></a>
-        </div>
-        <div class="span12 center" style="text-align: center;">
-            <ul class="stat-boxes">
-                <li>
-                    <div class="left peity_bar_good">
-                        <span>2,4,9,7,12,10,19</span>+20%</div>
-                    <div class="right">
-                        <strong>94</strong> 今日话题
-                    </div>
-                </li>
-                <li>
-                    <div class="left peity_bar_bad">
-                        <span>3,5</span>+50%</div>
-                    <div class="right">
-                        <strong>2</strong> 舆情警告
-                    </div>
-                </li>
-                <li>
-                    <div class="left peity_line_good">
-                        <span>12,6,9,23,14</span>+70%</div>
-                    <div class="right">
-                        <strong>8650</strong> 监测量
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="row-fluid">
-        <div class="span12">
-            <div class="widget-box">
-                <div class="widget-title">
-                    <span class="icon"><i class="icon-signal"></i></span>
-                    <h5>
-                        话题导向</h5>
-                    <div class="buttons">
-                        <a href="#" class="btn btn-mini"><i class="icon-refresh"></i>更新数据</a></div>
-                </div>
-                <div class="widget-content">
-                    <div class="row-fluid">
-                        <div class="span12">
-                            <div class="chart">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <div id="content"><!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html>
+<head>
+<title>页面提示</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv='Refresh' content='<?php echo ($waitSecond); ?>;URL=<?php echo ($jumpUrl); ?>'>
+    <link rel="stylesheet" type="text/css" href="../Public/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../Public/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../Public/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" type="text/css" href="../Public/css/unicorn.main.css" />
+    <link rel="stylesheet" type="text/css" href="../Public/css/unicorn.grey.css" />
+    <link rel="stylesheet" type="text/css" href="../Public/css/default.css" />
+</head>
+<body>
+<div   style=" padding-top:100px; margin-left:auto; margin-right:auto; width:400px;">
+<table class="message"  cellpadding=0 cellspacing=20 >
+ 	<tr class="row" >
+		<th class="tCenter space"><?php echo ($msgTitle); ?></th>
+	</tr>
+	<?php if(isset($message)): ?><tr class="row">
+		<td height="29" style="color:blue"><?php echo ($message); ?></td>
+	</tr><?php endif; ?>
+	<?php if(isset($error)): ?><tr class="row">
+		<td style="color:red"><?php echo ($error); ?></td>
+	</tr><?php endif; ?>
+	<?php if(isset($closeWin)): ?><tr class="row">
+		<td>系统将在 <span id="wait" style="color:blue;font-weight:bold"><?php echo ($waitSecond); ?></span> 秒后自动关闭，如果不想等待,直接点击 <a id="href" href="<?php echo ($jumpUrl); ?>">这里</a> 关闭</td>
+	</tr><?php endif; ?>
+	<?php if(!isset($closeWin)): ?><tr class="row">
+		<td height="62">系统将在 <span id="wait" style="color:blue;font-weight:bold"><?php echo ($waitSecond); ?></span> 秒后自动跳转,如果不想等待,直接点击 <a id="href" href="<?php echo ($jumpUrl); ?>">这里</a> 跳转</td>
+	</tr><?php endif; ?>
+	</table>
 </div>
 <script type="text/javascript">
-    $(function () {
-        $('#li_home').addClass('active');
-    });
-</script></div>
+(function(){
+var wait = document.getElementById('wait'),href = document.getElementById('href').href;
+var interval = setInterval(function(){
+	var time = --wait.innerHTML;
+	(time == 0) && (location.href = href);
+}, 1000);	
+})();
+</script>
+</body>
+</html>
+</div>
     
     <!-- Footer -->
     <div class="row-fluid">

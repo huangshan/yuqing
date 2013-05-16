@@ -3,24 +3,28 @@
 <head>
     <title>舆情监测系统</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../Public/css/style.css" />
     <link rel="stylesheet" type="text/css" href="../Public/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="../Public/css/bootstrap-responsive.min.css" />
     <link rel="stylesheet" type="text/css" href="../Public/css/unicorn.main.css" />
     <link rel="stylesheet" type="text/css" href="../Public/css/unicorn.grey.css" />
     <link rel="stylesheet" type="text/css" href="../Public/css/default.css" />
-
-    <script type="text/javascript" src="../Public/js/jquery.min.js"></script>  
+    <script type="text/javascript" src="../Public/js/jquery.min.js"></script>
+　   <script type="text/javascript">
+　　  var jQuery=$;
+　　 </script>    
     <script type="text/javascript" src="../Public/js/jquery.ui.custom.js"></script>
     <script type="text/javascript" src="../Public/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../Public/js/jquery.peity.min.js"></script>
     <script type="text/javascript" src="../Public/js/jquery.flot.min.js"></script>
     <script type="text/javascript" src="../Public/js/jquery.flot.resize.min.js"></script>
+    <script type="text/javascript" src="../Public/js/unicorn.js"></script>
     <script type="text/javascript" src="../Public/js/unicorn.dashboard.js"></script>   
     <script type="text/javascript" src="__PUBLIC__/Js/Base.js"></script>
     <script type="text/javascript" src="__PUBLIC__/Js/prototype.js"></script>
     <script type="text/javascript" src="__PUBLIC__/Js/mootools.js"></script>
     <script type="text/javascript" src="__PUBLIC__/Js/Think/ThinkAjax.js"></script>
-    <script type="text/javascript" src="__PUBLIC__/Js/Form/CheckForm.js"></script>>    
+    <script type="text/javascript" src="__PUBLIC__/Js/Form/CheckForm.js"></script>    
     <script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
 
 <script language="JavaScript">
@@ -117,6 +121,7 @@ var PUBLIC = '__PUBLIC__';
                     <h5>
                         人员管理</h5>
                     <div class="buttons" style="margin-right: 15px;">
+                    <a href="javascript::" class="btn btn-danger btn-mini" onclick="foreverdel()">全部删除</a>
                         <a href="__ROOT__/index.php/SystemManage/userAdd" class="btn btn-success btn-mini"><i
                             class="icon-plus icon-white"></i>新增</a>
                     </div>
@@ -126,8 +131,8 @@ var PUBLIC = '__PUBLIC__';
                         <thead>
                         
                             <tr style="cursor: pointer;">
-                                <th width="6%">编号</th>
-                                <th width="15%">账号</th>
+                                <th width="5%"><input type="checkbox" id="check" onclick="CheckAll('checkList')"></th>
+                                <th width="16%">账号</th>
                                 <th width="13%" style="width: 13%">
                                     姓名
                                 </th>
@@ -145,8 +150,8 @@ var PUBLIC = '__PUBLIC__';
                         <tbody>
                         <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                                 <td align="center" class="center">
-                                    <input type="checkbox" name="key" value="<?php echo ($vo["Id"]); ?>">
-                                </td>
+                                    <input name="key" type="checkbox" value="<?php echo ($vo["Id"]); ?>">
+                              </td>
                                 <td class="center"><?php echo ($vo["Account"]); ?></td>
                                 <td class="center">
                                     <?php echo ($vo["Name"]); ?>
@@ -155,13 +160,11 @@ var PUBLIC = '__PUBLIC__';
                                     <?php echo ($vo["Mobile"]); ?>
                                 </td>
                                 <td class="center">
-                                    <span class="label label-success"><?php if($vo['Status']==1){echo "正常";}else{echo "启用";} ?></span>
+                                    <span class="label label-success" id="label-success"><?php if($vo['Status']==1){ ?><a href="#">正常</a><?php }else{ ?><a href="#">启用</a><?php } ?></span>
                                 </td>
                                 <td class="center">
-                                    <a href="__ROOT__/index.php/SystemManage/userEdit/Id/<?php echo ($vo["Id"]); ?>" class="btn btn-mini">查看 / 编辑</a>
-                                    <a href="javascript::" class="btn btn-danger btn-mini" onclick="foreverdel()">
-                                        删除</a>
-                                </td>
+                                    <a href="__ROOT__/index.php/SystemManage/userEdit/Id/<?php echo ($vo["Id"]); ?>" class="btn btn-mini">查看 / 编辑</a> <a href="javascript::" class="btn btn-danger btn-mini"  onmousemove="check(this,'key')" onclick="del_new(<?php echo ($vo["Id"]); ?>)">删除</a>
+                              </td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                         </tbody>
                     </table>

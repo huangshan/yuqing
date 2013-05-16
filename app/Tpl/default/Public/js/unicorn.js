@@ -2,22 +2,22 @@
  * Unicorn Admin Template
  * Diablo9983 -> diablo9983@gmail.com
 **/
-$(document).ready(function(){
+jQuery(document).ready(function(){
 
 	
 	
 	// === Sidebar navigation === //
 	
-	$('.submenu > a').click(function(e)
+	jQuery('.submenu > a').click(function(e)
 	{
 		e.preventDefault();
-		var submenu = $(this).siblings('ul');
-		var li = $(this).parents('li');
-		var submenus = $('#sidebar li.submenu ul');
-		var submenus_parents = $('#sidebar li.submenu');
+		var submenu = jQuery(this).siblings('ul');
+		var li = jQuery(this).parents('li');
+		var submenus = jQuery('#sidebar li.submenu ul');
+		var submenus_parents = jQuery('#sidebar li.submenu');
 		if(li.hasClass('open'))
 		{
-			if(($(window).width() > 768) || ($(window).width() < 479)) {
+			if((jQuery(window).width() > 768) || (jQuery(window).width() < 479)) {
 				submenu.slideUp();
 			} else {
 				submenu.fadeOut(250);
@@ -25,7 +25,7 @@ $(document).ready(function(){
 			li.removeClass('open');
 		} else 
 		{
-			if(($(window).width() > 768) || ($(window).width() < 479)) {
+			if((jQuery(window).width() > 768) || (jQuery(window).width() < 479)) {
 				submenus.slideUp();			
 				submenu.slideDown();
 			} else {
@@ -37,12 +37,12 @@ $(document).ready(function(){
 		}
 	});
 	
-	var ul = $('#sidebar > ul');
+	var ul = jQuery('#sidebar > ul');
 	
-	$('#sidebar > a').click(function(e)
+	jQuery('#sidebar > a').click(function(e)
 	{
 		e.preventDefault();
-		var sidebar = $('#sidebar');
+		var sidebar = jQuery('#sidebar');
 		if(sidebar.hasClass('open'))
 		{
 			sidebar.removeClass('open');
@@ -55,45 +55,45 @@ $(document).ready(function(){
 	});
 	
 	// === Resize window related === //
-	$(window).resize(function()
+	jQuery(window).resize(function()
 	{
-		if($(window).width() > 479)
+		if(jQuery(window).width() > 479)
 		{
 			ul.css({'display':'block'});	
-			$('#content-header .btn-group').css({width:'auto'});		
+			jQuery('#content-header .btn-group').css({width:'auto'});		
 		}
-		if($(window).width() < 479)
+		if(jQuery(window).width() < 479)
 		{
 			ul.css({'display':'none'});
 			fix_position();
 		}
-		if($(window).width() > 768)
+		if(jQuery(window).width() > 768)
 		{
-			$('#user-nav > ul').css({width:'auto',margin:'0'});
-            $('#content-header .btn-group').css({width:'auto'});
+			jQuery('#user-nav > ul').css({width:'auto',margin:'0'});
+            jQuery('#content-header .btn-group').css({width:'auto'});
 		}
 	});
 	
-	if($(window).width() < 468)
+	if(jQuery(window).width() < 468)
 	{
 		ul.css({'display':'none'});
 		fix_position();
 	}
-	if($(window).width() > 479)
+	if(jQuery(window).width() > 479)
 	{
-	   $('#content-header .btn-group').css({width:'auto'});
+	   jQuery('#content-header .btn-group').css({width:'auto'});
 		ul.css({'display':'block'});
 	}
 	
 	// === Tooltips === //
-	$('.tip').tooltip();	
-	$('.tip-left').tooltip({ placement: 'left' });	
-	$('.tip-right').tooltip({ placement: 'right' });	
-	$('.tip-top').tooltip({ placement: 'top' });	
-	$('.tip-bottom').tooltip({ placement: 'bottom' });	
+	jQuery('.tip').tooltip();	
+	jQuery('.tip-left').tooltip({ placement: 'left' });	
+	jQuery('.tip-right').tooltip({ placement: 'right' });	
+	jQuery('.tip-top').tooltip({ placement: 'top' });	
+	jQuery('.tip-bottom').tooltip({ placement: 'bottom' });	
 	
 	// === Search input typeahead === //
-	$('#search input[type=text]').typeahead({
+	jQuery('#search input[type=text]').typeahead({
 		source: ['Dashboard','Form elements','Common Elements','Validation','Wizard','Buttons','Icons','Interface elements','Support','Calendar','Gallery','Reports','Charts','Graphs','Widgets'],
 		items: 4
 	});
@@ -101,34 +101,34 @@ $(document).ready(function(){
 	// === Fixes the position of buttons group in content header and top user navigation === //
 	function fix_position()
 	{
-		var uwidth = $('#user-nav > ul').width();
-		$('#user-nav > ul').css({width:uwidth,'margin-left':'-' + uwidth / 2 + 'px'});
+		var uwidth = jQuery('#user-nav > ul').width();
+		jQuery('#user-nav > ul').css({width:uwidth,'margin-left':'-' + uwidth / 2 + 'px'});
         
-        var cwidth = $('#content-header .btn-group').width();
-        $('#content-header .btn-group').css({width:cwidth,'margin-left':'-' + uwidth / 2 + 'px'});
+        var cwidth = jQuery('#content-header .btn-group').width();
+        jQuery('#content-header .btn-group').css({width:cwidth,'margin-left':'-' + uwidth / 2 + 'px'});
 	}
 	
 	// === Style switcher === //
-	$('#style-switcher i').click(function()
+	jQuery('#style-switcher i').click(function()
 	{
-		if($(this).hasClass('open'))
+		if(jQuery(this).hasClass('open'))
 		{
-			$(this).parent().animate({marginRight:'-=190'});
-			$(this).removeClass('open');
+			jQuery(this).parent().animate({marginRight:'-=190'});
+			jQuery(this).removeClass('open');
 		} else 
 		{
-			$(this).parent().animate({marginRight:'+=190'});
-			$(this).addClass('open');
+			jQuery(this).parent().animate({marginRight:'+=190'});
+			jQuery(this).addClass('open');
 		}
-		$(this).toggleClass('icon-arrow-left');
-		$(this).toggleClass('icon-arrow-right');
+		jQuery(this).toggleClass('icon-arrow-left');
+		jQuery(this).toggleClass('icon-arrow-right');
 	});
 	
-	$('#style-switcher a').click(function()
+	jQuery('#style-switcher a').click(function()
 	{
-		var style = $(this).attr('href').replace('#','');
-		$('.skin-color').attr('href','css/unicorn.'+style+'.css');
-		$(this).siblings('a').css({'border-color':'transparent'});
-		$(this).css({'border-color':'#aaaaaa'});
+		var style = jQuery(this).attr('href').replace('#','');
+		jQuery('.skin-color').attr('href','css/unicorn.'+style+'.css');
+		jQuery(this).siblings('a').css({'border-color':'transparent'});
+		jQuery(this).css({'border-color':'#aaaaaa'});
 	});
 });

@@ -3,18 +3,30 @@
 <head>
     <title>舆情监测系统</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../Public/css/style.css" />
     <link rel="stylesheet" type="text/css" href="../Public/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="../Public/css/bootstrap-responsive.min.css" />
     <link rel="stylesheet" type="text/css" href="../Public/css/unicorn.main.css" />
     <link rel="stylesheet" type="text/css" href="../Public/css/unicorn.grey.css" />
     <link rel="stylesheet" type="text/css" href="../Public/css/default.css" />
+    <script type="text/javascript" src="../Public/js/jquery.min.js"></script>
+　   <script type="text/javascript">
+　　  var jQuery=$;
+　　 </script>    
+    <script type="text/javascript" src="../Public/js/jquery.ui.custom.js"></script>
+    <script type="text/javascript" src="../Public/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../Public/js/jquery.peity.min.js"></script>
+    <script type="text/javascript" src="../Public/js/jquery.flot.min.js"></script>
+    <script type="text/javascript" src="../Public/js/jquery.flot.resize.min.js"></script>
+    <script type="text/javascript" src="../Public/js/unicorn.js"></script>
+    <script type="text/javascript" src="../Public/js/unicorn.dashboard.js"></script>   
     <script type="text/javascript" src="__PUBLIC__/Js/Base.js"></script>
     <script type="text/javascript" src="__PUBLIC__/Js/prototype.js"></script>
     <script type="text/javascript" src="__PUBLIC__/Js/mootools.js"></script>
     <script type="text/javascript" src="__PUBLIC__/Js/Think/ThinkAjax.js"></script>
-    <script type="text/javascript" src="__PUBLIC__/Js/Form/CheckForm.js"></script>>    
-    <script type="text/javascript" src="../Public/js/common.js"></script>   
- 
+    <script type="text/javascript" src="__PUBLIC__/Js/Form/CheckForm.js"></script>    
+    <script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
+
 <script language="JavaScript">
 <!--
 //指定当前组模块URL地址 
@@ -24,6 +36,7 @@ var APP	 =	 '__APP__';
 var PUBLIC = '__PUBLIC__';
 //-->
 </script>    
+
 </head>
 <body>
     <!-- logo -->

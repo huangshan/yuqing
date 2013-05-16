@@ -748,3 +748,653 @@ INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
 SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008565s ]
 SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('22') ) [ RunTime:0.052786s ]
 
+[ 2013-05-16T15:55:15+08:00 ] 127.0.0.1 /yuqing/index.php/Profile
+ERR: 无法加载模块:Profile
+
+[ 2013-05-16T15:55:49+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002691s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007129s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('23') ) [ RunTime:0.112009s ]
+
+[ 2013-05-16T16:01:18+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.005447s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('24') ) [ RunTime:0.136561s ]
+
+[ 2013-05-16T16:01:20+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006517s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('24') ) [ RunTime:0.000442s ]
+
+[ 2013-05-16T16:01:56+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.005973s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('24') ) [ RunTime:0.000432s ]
+
+[ 2013-05-16T16:05:42+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007990s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('25') ) [ RunTime:0.003824s ]
+
+[ 2013-05-16T16:07:33+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002102s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008340s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('27') ) [ RunTime:0.002976s ]
+
+[ 2013-05-16T16:13:31+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.012215s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('26') ) [ RunTime:0.003949s ]
+
+[ 2013-05-16T16:17:15+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006846s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('29') ) [ RunTime:0.022141s ]
+
+[ 2013-05-16T16:17:24+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.011384s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('28') ) [ RunTime:0.052655s ]
+
+[ 2013-05-16T16:33:15+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.005928s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('30') ) [ RunTime:0.059413s ]
+
+[ 2013-05-16T16:33:44+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006778s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007126s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('31') ) [ RunTime:0.056538s ]
+
+[ 2013-05-16T16:33:50+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006440s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('32') ) [ RunTime:0.054538s ]
+
+[ 2013-05-16T16:34:41+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.064509s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('33') ) [ RunTime:0.006832s ]
+
+[ 2013-05-16T16:35:52+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001876s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006426s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('34') ) [ RunTime:0.056505s ]
+
+[ 2013-05-16T16:36:00+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.012469s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('35') ) [ RunTime:0.057574s ]
+
+[ 2013-05-16T16:36:08+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006813s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('36') ) [ RunTime:0.051487s ]
+
+[ 2013-05-16T16:36:49+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007397s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('37') ) [ RunTime:0.104426s ]
+
+[ 2013-05-16T16:38:30+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006826s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('38') ) [ RunTime:0.052567s ]
+
+[ 2013-05-16T16:49:54+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003078s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007508s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('39') ) [ RunTime:0.058721s ]
+
+[ 2013-05-16T16:51:28+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007729s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('40') ) [ RunTime:0.052385s ]
+
+[ 2013-05-16T16:54:52+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008068s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('41') ) [ RunTime:0.059489s ]
+
+[ 2013-05-16T16:59:52+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008301s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('42') ) [ RunTime:0.058615s ]
+
+[ 2013-05-16T17:00:17+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002896s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007087s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('43') ) [ RunTime:0.053723s ]
+
+[ 2013-05-16T17:00:57+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.005880s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('44') ) [ RunTime:0.054402s ]
+
+[ 2013-05-16T17:04:49+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008445s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('44') ) [ RunTime:0.000590s ]
+
+[ 2013-05-16T17:06:27+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008132s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('45') ) [ RunTime:0.052996s ]
+
+[ 2013-05-16T17:07:08+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002542s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008826s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('46') ) [ RunTime:0.056592s ]
+
+[ 2013-05-16T17:08:01+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.020503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020632s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008088s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('47') ) [ RunTime:0.053636s ]
+
+[ 2013-05-16T17:09:51+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002082s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.009620s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('48') ) [ RunTime:0.059574s ]
+
+[ 2013-05-16T17:11:30+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008944s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('50','49') ) [ RunTime:0.060146s ]
+
+[ 2013-05-16T17:18:18+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.010128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010335s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.017000s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('51') ) [ RunTime:0.004539s ]
+
+[ 2013-05-16T17:19:22+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002029s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.018111s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('52') ) [ RunTime:0.061072s ]
+
+[ 2013-05-16T17:21:29+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002519s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.013650s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('53') ) [ RunTime:0.051736s ]
+
+[ 2013-05-16T17:21:35+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001812s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.013222s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('54') ) [ RunTime:0.003963s ]
+
+[ 2013-05-16T17:21:42+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.015174s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('55') ) [ RunTime:0.056817s ]
+
+[ 2013-05-16T17:22:51+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002201s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.021808s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('56') ) [ RunTime:0.060268s ]
+
+[ 2013-05-16T17:23:05+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002714s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.014640s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('57') ) [ RunTime:0.050756s ]
+
+[ 2013-05-16T17:25:01+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.010145s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('58') ) [ RunTime:0.003996s ]
+
+[ 2013-05-16T17:25:32+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.019772s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('59') ) [ RunTime:0.126551s ]
+
+[ 2013-05-16T17:25:48+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001755s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.010304s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('59') ) [ RunTime:0.000726s ]
+
+[ 2013-05-16T17:26:30+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.013632s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('60') ) [ RunTime:0.054534s ]
+
+[ 2013-05-16T17:27:07+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006786s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('61') ) [ RunTime:0.053717s ]
+
+[ 2013-05-16T17:27:43+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.009541s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('62') ) [ RunTime:0.003026s ]
+
+[ 2013-05-16T17:29:03+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002057s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008246s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('63') ) [ RunTime:0.056650s ]
+
+[ 2013-05-16T17:30:35+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007981s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('64') ) [ RunTime:0.002944s ]
+
+[ 2013-05-16T17:31:01+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.009323s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('65') ) [ RunTime:0.113694s ]
+
+[ 2013-05-16T17:33:08+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006314s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('66') ) [ RunTime:0.054442s ]
+
+[ 2013-05-16T17:35:43+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006831s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('67') ) [ RunTime:0.054279s ]
+
+[ 2013-05-16T17:36:55+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002888s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006396s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('68') ) [ RunTime:0.054222s ]
+
+[ 2013-05-16T18:33:10+08:00 ] 127.0.0.1 /yuqing/index.php/Profile
+ERR: 无法加载模块:Profile
+
+[ 2013-05-16T18:44:45+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007531s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('69') ) [ RunTime:0.059530s ]
+
+[ 2013-05-16T18:55:51+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001864s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.009990s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('70') ) [ RunTime:0.053600s ]
+
+[ 2013-05-16T19:00:48+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.011446s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('71') ) [ RunTime:0.062508s ]
+
+[ 2013-05-16T19:02:34+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003582s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.012330s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('72') ) [ RunTime:0.070894s ]
+
+[ 2013-05-16T19:03:04+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002427s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.012603s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('73') ) [ RunTime:0.059953s ]
+
+[ 2013-05-16T19:03:07+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002417s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.024193s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('74') ) [ RunTime:0.004249s ]
+
+[ 2013-05-16T19:03:27+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002186s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.012083s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('75') ) [ RunTime:0.058855s ]
+
+[ 2013-05-16T19:03:29+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002289s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.014179s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('76') ) [ RunTime:0.156083s ]
+
+[ 2013-05-16T19:03:31+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002266s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.012701s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('77') ) [ RunTime:0.003202s ]
+
+[ 2013-05-16T19:03:33+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003292s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.024260s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('78') ) [ RunTime:0.053863s ]
+
+[ 2013-05-16T19:06:17+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002423s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.021248s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('79') ) [ RunTime:0.157684s ]
+
+[ 2013-05-16T19:06:25+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.014036s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('86') ) [ RunTime:0.003842s ]
+
+[ 2013-05-16T19:06:53+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.010711s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('81') ) [ RunTime:0.056256s ]
+
+[ 2013-05-16T19:07:43+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006563s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.014212s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('80') ) [ RunTime:0.055044s ]
+
+[ 2013-05-16T19:14:57+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003044s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.023894s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('82') ) [ RunTime:0.055395s ]
+
+[ 2013-05-16T19:15:05+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004037s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.013199s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('84') ) [ RunTime:0.003215s ]
+
+[ 2013-05-16T19:17:49+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.010896s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('89','88','87') ) [ RunTime:0.040923s ]
+
+[ 2013-05-16T19:18:02+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001792s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.012375s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('90','85') ) [ RunTime:0.057060s ]
+
+[ 2013-05-16T19:28:05+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004884s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008534s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('96') ) [ RunTime:0.012896s ]
+
+[ 2013-05-16T19:28:12+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007040s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('95') ) [ RunTime:0.051421s ]
+
+[ 2013-05-16T19:39:54+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.005613s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('83') ) [ RunTime:0.057279s ]
+
+[ 2013-05-16T19:42:07+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002373s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007053s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('91') ) [ RunTime:0.124546s ]
+
+[ 2013-05-16T19:42:49+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008195s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('92') ) [ RunTime:0.049322s ]
+
+[ 2013-05-16T19:44:29+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006652s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('93') ) [ RunTime:0.051116s ]
+
+[ 2013-05-16T19:44:41+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008574s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('94') ) [ RunTime:0.002601s ]
+
+[ 2013-05-16T19:49:11+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006588s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('97') ) [ RunTime:0.002755s ]
+
+[ 2013-05-16T19:51:22+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008292s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('98') ) [ RunTime:0.050286s ]
+
+[ 2013-05-16T19:51:48+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003731s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.010497s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('99') ) [ RunTime:0.051171s ]
+
+[ 2013-05-16T19:53:36+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006138s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('100') ) [ RunTime:0.053052s ]
+
+[ 2013-05-16T19:54:06+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008732s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('101') ) [ RunTime:0.054335s ]
+
+[ 2013-05-16T19:54:42+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008731s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('102') ) [ RunTime:0.053646s ]
+
+[ 2013-05-16T20:15:16+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006052s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('103') ) [ RunTime:0.050268s ]
+
+[ 2013-05-16T20:15:23+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008084s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('104') ) [ RunTime:0.054511s ]
+
+[ 2013-05-16T20:26:24+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002083s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007975s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('105') ) [ RunTime:0.002792s ]
+
+[ 2013-05-16T20:26:37+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007949s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('106') ) [ RunTime:0.002829s ]
+
+[ 2013-05-16T21:22:37+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del?id=124&ajax=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.006455s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('124') ) [ RunTime:0.002702s ]
+
+[ 2013-05-16T22:06:25+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002517s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007455s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('118') ) [ RunTime:0.055955s ]
+
+[ 2013-05-16T22:25:59+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008302s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('134') ) [ RunTime:0.069076s ]
+
+[ 2013-05-16T22:27:25+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.008724s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('107') ) [ RunTime:0.055569s ]
+
+[ 2013-05-16T22:48:42+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007200s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('128') ) [ RunTime:0.054292s ]
+
+[ 2013-05-16T22:48:57+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.009142s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('108') ) [ RunTime:0.014521s ]
+
+[ 2013-05-16T22:50:15+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.007497s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('109') ) [ RunTime:0.002758s ]
+
+[ 2013-05-16T22:50:27+08:00 ] 127.0.0.1 /yuqing/index.php/SystemManage/del
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001735s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.010334s ]
+SQL: DELETE FROM `think_users` WHERE ( `Id` IN ('127') ) [ RunTime:0.148362s ]
+

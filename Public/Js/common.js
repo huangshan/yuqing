@@ -232,10 +232,59 @@ function foreverdel(id){
 	{   
 		ThinkAjax.send(ROOT+"/index.php/SystemManage/del","id="+keyValue+'&ajax=1',doDelete);
 		//ThinkAjax.send(URL+"/foreverdelete/","id="+keyValue+'&ajax=1',doDelete);
+		
 	}
 }
+
+function check(obj,name)       
+{ 
+  
+  selectRowIndex[0] =obj.parentElement.parentElement.rowIndex;/*当前行对象*/
+      
+}
+
+
+ 
+
+
+function del_new(id){
+     
+	var keyValue;
+	if (id)
+	{
+		keyValue = id;
+	}else {
+		keyValue = getSelectCheckboxValues();
+	}
+	if (!keyValue)
+	{
+		alert('请选择删除项！');
+		return false;
+	}
+
+	if (window.confirm('确实要永久删除选择项吗？'))
+	{   
+		ThinkAjax.send(ROOT+"/index.php/SystemManage/del","id="+keyValue+'&ajax=1',DeleteNew);
+		//ThinkAjax.send(URL+"/foreverdelete/","id="+keyValue+'&ajax=1',doDelete);
+	}
+}
+
 function getTableRowIndex(obj){ 
 	selectRowIndex[0] =obj.parentElement.parentElement.rowIndex;/*当前行对象*/
+}
+
+function DeleteNew(data,status){
+        if(status==1){
+		 
+		var Table = $('checkList');
+		var len	=	selectRowIndex.length;
+		for (var i=len-1;i>=0;i-- )
+		{
+			//删除表格行
+			Table.deleteRow(selectRowIndex[i]);
+		}
+		selectRowIndex = Array();
+		}
 }
 
 function doDelete(data,status){

@@ -17,6 +17,7 @@
                     <h5>
                         人员管理</h5>
                     <div class="buttons" style="margin-right: 15px;">
+                    <a href="javascript::" class="btn btn-danger btn-mini" onclick="foreverdel()">全部删除</a>
                         <a href="__ROOT__/index.php/SystemManage/userAdd" class="btn btn-success btn-mini"><i
                             class="icon-plus icon-white"></i>新增</a>
                     </div>
@@ -26,8 +27,8 @@
                         <thead>
                         
                             <tr style="cursor: pointer;">
-                                <th width="6%">编号</th>
-                                <th width="15%">账号</th>
+                                <th width="5%"><input type="checkbox" id="check" onclick="CheckAll('checkList')"></th>
+                                <th width="16%">账号</th>
                                 <th width="13%" style="width: 13%">
                                     姓名
                                 </th>
@@ -46,8 +47,8 @@
                         <volist name="list" id="vo">
                             <tr>
                                 <td align="center" class="center">
-                                    <input type="checkbox" name="key" value="{$vo.Id}">
-                                </td>
+                                    <input name="key" type="checkbox" value="{$vo.Id}">
+                              </td>
                                 <td class="center">{$vo.Account}</td>
                                 <td class="center">
                                     {$vo.Name}
@@ -56,13 +57,11 @@
                                     {$vo.Mobile}
                                 </td>
                                 <td class="center">
-                                    <span class="label label-success"><php>if($vo['Status']==1){echo "正常";}else{echo "启用";}</php></span>
+                                    <span class="label label-success" id="label-success"><php>if($vo['Status']==1){</php><a href="#">正常</a><php>}else{</php><a href="#">启用</a><php>}</php></span>
                                 </td>
                                 <td class="center">
-                                    <a href="__ROOT__/index.php/SystemManage/userEdit/Id/{$vo.Id}" class="btn btn-mini">查看 / 编辑</a>
-                                    <a href="javascript::" class="btn btn-danger btn-mini" onclick="foreverdel()">
-                                        删除</a>
-                                </td>
+                                    <a href="__ROOT__/index.php/SystemManage/userEdit/Id/{$vo.Id}" class="btn btn-mini">查看 / 编辑</a> <a href="javascript::" class="btn btn-danger btn-mini"  onmousemove="check(this,'key')" onclick="del_new({$vo.Id})">删除</a>
+                              </td>
                             </tr>
                             </volist>
                         </tbody>

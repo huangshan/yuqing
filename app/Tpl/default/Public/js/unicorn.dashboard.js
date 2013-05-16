@@ -2,7 +2,7 @@
  * Unicorn Admin Template
  * Diablo9983 -> diablo9983@gmail.com
 **/
-$(document).ready(function(){
+jQuery(document).ready(function(){
 	
 	
 	
@@ -17,7 +17,7 @@ $(document).ready(function(){
     }
 
 	// === Make chart === //
-    var plot = $.plot($(".chart"),
+    var plot = $.plot(jQuery(".chart"),
            [ { data: sin, label: "sin(x)", color: "#BA1E20"}, { data: cos, label: "cos(x)",color: "#459D1C" } ], {
                series: {
                    lines: { show: true },
@@ -29,14 +29,14 @@ $(document).ready(function(){
     
 	// === Point hover in chart === //
     var previousPoint = null;
-    $(".chart").bind("plothover", function (event, pos, item) {
+    jQuery(".chart").bind("plothover", function (event, pos, item) {
 		
         if (item) {
             if (previousPoint != item.dataIndex) {
                 previousPoint = item.dataIndex;
                 
-                $('#tooltip').fadeOut(200,function(){
-					$(this).remove();
+                jQuery('#tooltip').fadeOut(200,function(){
+					jQuery(this).remove();
 				});
                 var x = item.datapoint[0].toFixed(2),
 					y = item.datapoint[1].toFixed(2);
@@ -45,8 +45,8 @@ $(document).ready(function(){
             }
             
         } else {
-			$('#tooltip').fadeOut(200,function(){
-					$(this).remove();
+			jQuery('#tooltip').fadeOut(200,function(){
+					jQuery(this).remove();
 				});
             previousPoint = null;           
         }   
@@ -58,7 +58,7 @@ $(document).ready(function(){
 	var m = date.getMonth();
 	var y = date.getFullYear();
 	
-	$('.calendar').fullCalendar({
+	jQuery('.calendar').fullCalendar({
 		header: {
 			left: 'prev,next',
 			center: 'title',
@@ -130,25 +130,25 @@ unicorn = {
 				min: 0,
 				width: 50
 			};
-			$(".peity_line_good span").peity("line", {
+			jQuery(".peity_line_good span").peity("line", {
 				colour: "#B1FFA9",
 				strokeColour: "#459D1C"
 			});
-			$(".peity_line_bad span").peity("line", {
+			jQuery(".peity_line_bad span").peity("line", {
 				colour: "#FFC4C7",
 				strokeColour: "#BA1E20"
 			});	
-			$(".peity_line_neutral span").peity("line", {
+			jQuery(".peity_line_neutral span").peity("line", {
 				colour: "#CCCCCC",
 				strokeColour: "#757575"
 			});
-			$(".peity_bar_good span").peity("bar", {
+			jQuery(".peity_bar_good span").peity("bar", {
 				colour: "#459D1C"
 			});
-			$(".peity_bar_bad span").peity("bar", {
+			jQuery(".peity_bar_bad span").peity("bar", {
 				colour: "#BA1E20"
 			});	
-			$(".peity_bar_neutral span").peity("bar", {
+			jQuery(".peity_bar_neutral span").peity("bar", {
 				colour: "#757575"
 			});
 		},
@@ -156,7 +156,7 @@ unicorn = {
 		// === Tooltip for flot charts === //
 		flot_tooltip: function(x, y, contents) {
 			
-			$('<div id="tooltip">' + contents + '</div>').css( {
+			jQuery('<div id="tooltip">' + contents + '</div>').css( {
 				top: y + 5,
 				left: x + 5
 			}).appendTo("body").fadeIn(200);
